@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "ex1013.h"
 #include "ex1017.h"
+#include "ex1036.h"
 #include "ex1066.h"
 #include "ex1080.h"
 #include "ex1113.h"
@@ -23,6 +24,9 @@ int main() {
     break;
   case 1017:
     ex1017();
+    break;
+  case 1036:
+    ex1036();
     break;
   case 1066:
     ex1066();

@@ -1,4 +1,4 @@
-
+// LISTA 1
 #include <stdio.h>
 #include "ex1013.h"
 #include "ex1017.h"
@@ -10,14 +10,24 @@
 #include "ex2060.h"
 #include "ex2163.h"
 
-int main() {
+// LISTA 2
+#include "ex1253.h"
+#include "ex1187.h"
+#include "ex1188.h"
+#include "ex1189.h"
+#include "ex1190.h"
+#include "ex2174.h"
+
+int main()
+{
 
   int x;
 
   printf("Digite o numero do exercicio: ");
   scanf("%d", &x);
- 
- switch (x){
+
+  switch (x)
+  {
   case 1013:
     ex1013();
     break;
@@ -42,7 +52,29 @@ int main() {
   case 2163:
     ex2163();
     break;
- }
+  case 1253:
+    ex1253();
+    break;
+  case 1187:
+    ex1187();
+    break;
+  case 1188:
+    ex1188();
+    break;
+  case 1189:
+    ex1189();
+    break;
+  case 1190:
+    ex1190();
+    break;
+  case 2174:
+    ex2174();
+    break;
 
-    return 0;
+  default:
+    printf("Exercício não encontrado!");
+    break;
+  }
+
+  return 0;
 }

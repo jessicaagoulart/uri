@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int ex2163() {
+int main() {
  
   int n, m; 
   int matrix[1000][1000];

@@ -18,6 +18,7 @@
 #include "ex1189.h"
 #include "ex1190.h"
 #include "ex2174.h"
+#include "ex1581.h"
 
 int main()
 {
@@ -74,6 +75,10 @@ int main()
   case 2174:
     ex2174();
     break;
+  case 1581:
+    ex1581();
+    break;
+
 
   default:
     printf("Exercício não encontrado!");
